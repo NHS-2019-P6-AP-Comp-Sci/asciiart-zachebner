@@ -16,12 +16,64 @@
 
 // YOU CODE HERE :) 
 
+
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void fullstripe() {
+		System.out.println("|########################################################################################");
 	}
+	public static void fullblank() {
+		System.out.print("|\n");
+	}
+	public static void starsstripe() {
+		System.out.println("|  * * * * * * * * * *   ################################################################");
+	}
+	public static void nostarsstripe() {
+		System.out.println("|\t\t\t ################################################################");
+	}
+	public static void starsnostripe() {
+		System.out.println("|   * * * * * * * * * *  \t\t\t\t\t\t\t\t");
+	}
+	public static void starsection() {
+		nostarsstripe();
+		starsstripe();
+		fullblank();
+		starsnostripe();
+	}
+	public static void main (String [] args) {
+		System.out.println("O");
+		System.out.println("|________________________________________________________________________________________");
+		starsection();
+		starsection();
+		nostarsstripe();
+		starsstripe();
+		fullblank();
+		fullblank();
+		fullstripe();
+		fullstripe();
+		fullblank();
+		fullblank();
+		fullstripe();
+		fullstripe();
+		fullblank();
+		fullblank();
+		fullstripe();
+		fullstripe();
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		
+	}
+	
 }
